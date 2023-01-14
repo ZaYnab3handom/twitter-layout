@@ -1,13 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 html {
     font-size: 10px;
-    font-family:  'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.twitter_icon {
+    box-sizing: content-box;
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem ;
+    /* margin-left: 1rem; */
+    
+}
+
+.twitter_icon:hover {
+    background-color: rgb(229, 237, 248);
+    border-radius: 50%;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 0 0 20%;
+    height: 100%;
+    position: fixed;
+    padding: 15px 8% 0 6%;
+
+
+}
+
+.top_left_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+
+}
+
+.icon_container {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    gap: 15px;
+    padding: 8px 25px 8px 8px;
+    width: fit-content;
+}
+
+.icon_container:hover {
+    background-color: rgb(231, 234, 240);
+    border-radius: 9999px;
+}
+
+.icon_container [class*='icons'] {
+    font-size: 3rem;
+
+}
+
+.top_nav {
+    margin-top: 10px;
+}
+.tweet_button{
+background-color: rgb(29, 155 ,240);
+color: white;
+width: 90%;
+height:55px ;
+border-radius: 9999px;
+margin-top:15px ;
+font-size: 1.7rem;
+font-weight:700px ;
+cursor:pointer; 
+border: none;
+transition-duration: .2s;
+}
+.tweet_button:hover{
+    background-color: rgb(25, 136, 209);
+
+}
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+
+
+
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+
+
+
 }
