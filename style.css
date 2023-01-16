@@ -47,9 +47,9 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-basis: 0 0 20%;
-    height: 100%; 
+    height: 100%;
     padding: 10px 8% 0 4%;
-    position: fixed; 
+    position: fixed;
 
 
 }
@@ -106,27 +106,29 @@ body {
 }
 
 .bottom_left_side {
-   
+
     width: 100%;
     height: 20%;
     padding-top: 50px;
 }
 
-.bottom_left_side_box{
+.bottom_left_side_box {
     display: flex;
     align-items: center;
-    padding:  8px 10px 5px 15px; 
+    padding: 8px 10px 5px 15px;
     margin-left: 10px;
     gap: 10px;
 
 }
-.bottom_left_side_box:hover{
+
+.bottom_left_side_box:hover {
     background-color: rgb(231, 234, 240);
     border-radius: 9999px;
     cursor: pointer;
 }
-.account_name{
-    margin-right :15px ;
+
+.account_name {
+    margin-right: 15px;
     font-size: 1.5rem;
     line-height: 20px;
 }
@@ -134,6 +136,7 @@ body {
 .main_section {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     width: 45%;
     height: 100%;
     margin-left: 23%;
@@ -143,7 +146,7 @@ body {
 
 }
 
-.home_box{
+.home_box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -152,38 +155,127 @@ body {
     gap: 20px;
     border-bottom: 1px solid rgb(201 216 227);
     cursor: pointer;
+    position: sticky;
+    top: 0;
 
 }
-.inner_home_box{
+
+.inner_home_box {
     display: flex;
     justify-content: center;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 20px;
-    color:grey;
-    height:50%;
-
-}
-.for_you:hover{
- background-color: rgb(231, 234, 240);
- font-weight: 700;
- color: black;
- text-decoration:underline;
- text-decoration-color:rgb(29, 155, 240);
- text-decoration-thickness: 5px;
- text-underline-offset: 15px;
+    color: grey;
+    height: 50%;
 
 }
 
-.following:hover{
+.for_you:hover {
     background-color: rgb(231, 234, 240);
     font-weight: 700;
     color: black;
-    text-decoration:underline;
-    text-decoration-color:rgb(29, 155, 240);
+    text-decoration: underline;
+    text-decoration-color: rgb(29, 155, 240);
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+
+}
+
+.following:hover {
+    background-color: rgb(231, 234, 240);
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(29, 155, 240);
     text-decoration-thickness: 5px;
     text-underline-offset: 15px;
 }
+
+.Tweet_box {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    padding: 6px;
+    border-bottom: 1px solid rgb(201 216 227);
+
+}
+
+.tweet_box_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet_box_icons_button {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.Tweet_box input {
+    height: 70px;
+    border: none;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    outline: none;
+
+}
+
+::placeholder {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(107, 104, 104);
+
+}
+
+.tweet_box_icons {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 5;
+
+
+}
+
+.tweet_box_icons .material-icons-outlined {
+    font-size: 2.1rem;
+    color: rgb(29, 155, 240);
+
+}
+
+i {
+    width: fit-content;
+    padding: 8px 8px 8px 8px;
+}
+
+i:hover {
+    background-color: rgb(240, 246, 253);
+    border-radius: 50%;
+}
+
+.tweet_box_icons_button button {
+    background-color: rgb(145, 203, 241);
+    color: white;
+    width: 15%;
+    height: 35px;
+    border-radius: 9999px;
+    font-size: 1.5rem;
+    font-weight: 800px;
+    border: none;
+    transition-duration: .2s;
+}
+
+.tweet_box_icons_button button:hover {
+    background-color: rgb(29, 155, 240);
+    cursor: pointer;
+
+}
+
 .right_side {
     display: flex;
     flex-direction: column;
