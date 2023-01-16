@@ -276,6 +276,94 @@ i:hover {
 
 }
 
+.pos_flex_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(201 216 227);
+    transition-duration: .2s;
+    margin: 0 -15px 0 -15px;
+
+}
+.pos_flex_box:hover{
+    background-color:  rgb(230, 240, 250);
+}
+
+.img_account_box {
+    margin-left: 15px;
+    display: flex;
+}
+.poster_account_detail a:hover{
+    text-decoration: underline;
+}
+
+.poster_account_detail {
+    display: flex;
+    align-content: center;
+    width: 90%;
+    margin: 0 0 5px 10px;
+    padding-top: 5px;
+}
+.post_content{
+
+    height: fit-content;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+
+.post_reaction {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-top: 5;
+
+}
+
+.post_reaction .material-icons-outlined {
+    font-size: 2.1rem;
+    color: rgb(110, 118, 125);
+    padding: 4px 0 0 4px;
+
+    
+}
+.action_box .icon_box{
+    width: 30px;
+    height: 30px;
+}
+.action_box .icon_box:hover{
+    cursor: pointer;
+    background-color:rgb(253, 231, 244) ;
+    border-radius: 50%;
+}
+.icon_box .material-icons-outlined:hover{
+    color: red;
+
+}
+.action_box .action_count:hover{
+    display: block;
+    cursor: pointer;
+    color: red;
+}
+.post_reaction .action_count {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgb(110, 118, 125);
+    padding-top: 4px;
+    padding-left: 10px;
+
+
+}
+
+.action_box {
+    display: flex;
+
+    ;
+}
+
 .right_side {
     display: flex;
     flex-direction: column;
