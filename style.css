@@ -153,15 +153,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
+    width: 105%;
     height: 100px;
     gap: 20px;
     border-bottom: 1px solid rgb(201 216 227);
+    background-color: white;
     cursor: pointer;
     position: sticky;
     top: 0;
+    margin-left: -15px;
+    margin-right: -15px;
 
 }
+
 
 .inner_home_box {
     display: flex;
@@ -197,10 +201,12 @@ body {
 
 .Tweet_box {
     display: flex;
-    width: 100%;
-    height: 120px;
+    width: 105%;
+    height: 125px;
     padding: 6px;
     border-bottom: 1px solid rgb(201 216 227);
+    margin-left: -15px;
+    margin-right: -15px;
 
 }
 
@@ -208,6 +214,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+   
 }
 
 .tweet_box_icons_button {
@@ -228,7 +235,7 @@ body {
 
 }
 
-::placeholder {
+.Tweet_box input::placeholder {
     font-size: 20px;
     font-weight: 300;
     color: rgb(107, 104, 104);
@@ -372,8 +379,131 @@ i:hover {
 .right_side {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 30%;
+    padding: 5px;
 
 
 }
+.right_side input{
+    max-width: 88%;
+    border-radius: 999px;
+    background-color: rgb(235, 238, 252);
+    height: 40px;
+    padding-left: 50px;
+    border: none;
+    position: sticky;
+    top: 0;
+ }
+ .right_side input:focus{
+    outline-color: rgb(109, 188, 241);
+    background-color: white;
+ }
+
+ .right_side input::placeholder {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(107, 104, 104);
+
+}
+
+.all_trending_box{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    height: 470px;
+    background-color:   rgb(235, 238, 252);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.trending_box{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.trending_box:hover{
+    background-color:rgb(216, 220, 235);
+}
+.trend_data{
+    display: flex;
+    flex-direction: column;
+}
+.trending_box .material-icons{
+    color: grey;
+    font-size: 2rem;
+}
+
+.show_more{
+    padding-left: 20px;
+    padding-top: 20px; 
+    color: rgb(29, 155, 240); 
+    font-size: 1.4rem; 
+    height: 70px;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    cursor: pointer;
+
+}
+.show_more:hover{
+    background-color:rgb(216, 220, 235);
+}
+ .all_follow_box{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    height: 340px;
+    background-color:   rgb(235, 238, 252);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+ }
+ .follw_box{
+    display: flex; 
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    cursor: pointer;  
+ }
+ .follw_box:hover{
+    background-color:rgb(216, 220, 235);
+}
+ .fAccount_deatils{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+ }
+ .fname:hover{
+ text-decoration: underline;
+ }
+ .follw_box button{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 33px;
+    margin-left: 50px;
+    margin-top: 15px; 
+   border-radius: 9999px;
+   transition-duration: .2s;
+   border: none;
+   cursor: pointer;
+ }
+ .follw_box button:hover{
+    background-color: rgb(49, 47, 47)
+    
+ }
+ footer a{
+    font-weight: 300; 
+    font-size: 1.2rem; 
+    color: rgb(110,118,125);
+
+ }
+ footer a:hover{
+    text-decoration: underline;
+ }
