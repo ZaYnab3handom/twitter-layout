@@ -69,11 +69,14 @@ body {
     gap: 15px;
     padding: 8px 25px 8px 8px;
     width: fit-content;
+    margin-top: 3px;
+    font-weight: 300;
 }
 
 .icon_container:hover {
     background-color: rgb(231, 234, 240);
     border-radius: 9999px;
+    /* font-weight: 700; */
 }
 
 .icon_container [class*='icons'] {
@@ -88,8 +91,8 @@ body {
 .tweet_button {
     background-color: rgb(29, 155, 240);
     color: white;
-    width: 90%;
-    height: 55px;
+    width: 110%;
+    height: 53px;
     border-radius: 9999px;
     margin-top: 15px;
     font-size: 1.7rem;
