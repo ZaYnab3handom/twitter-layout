@@ -512,3 +512,24 @@ i:hover {
  footer a:hover{
     text-decoration: underline;
  }
+
+ @media screen and (max-width:1260px) {
+    .tweet_button{
+        width:55px;
+        border-radius: 50%;
+        font-size: 1.4rem;
+    }
+    .top_nav .icon_container span:nth-child(2){
+        display: none;
+    }
+   .bottom_left_side_box div:nth-child(2), .bottom_left_side_box div:nth-child(3){
+    display: none;
+
+   }
+   .right_side{
+    display: none;
+   }
+   .main_section{
+    width:80%;
+   }
+ }
