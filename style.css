@@ -287,13 +287,13 @@ i:hover {
 
 }
 .pos_flex_box:hover{
-    background-color:  rgb(230, 240, 250);
+    background-color:  rgb(250, 250, 250);
 }
 
-.img_account_box {
+/* .img_account_box {
     margin-left: 15px;
     display: flex;
-}
+} */
 .poster_account_detail a:hover{
     text-decoration: underline;
 }
@@ -302,7 +302,7 @@ i:hover {
     display: flex;
     align-content: center;
     width: 90%;
-    margin: 0 0 5px 10px;
+    margin: -55px 0 5px 80px;
     padding-top: 5px;
 }
 .post_content{
@@ -312,6 +312,8 @@ i:hover {
     font-weight: 300;
     padding-bottom: 15px;
     padding-left: 60px;
+    margin-left: 20px;
+    margin-top: -10px;
 }
 
 .post_reaction {
