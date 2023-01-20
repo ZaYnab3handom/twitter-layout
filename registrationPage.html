@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+<form action="loginPage.html">
+    <input type="hidden" id="custId" name="custId" value="001">
+        <label for="FirstName">FirstName: </label> <br>
+        <input type="text" id="FirstName" placeholder="Enter Your FirstName" size="20" maxlength="10" name="FirstName" required>
+        <br><br>
+        <label for="LastName">LastName: </label><br>
+        <input type="text" id="LastName" placeholder="Enter Your LastName" size="20" maxlength="10" name="LastName" required>
+        <br><br>
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" required > 
+        <br><br>
+        <label for="Pass">Password: </label><br>
+        <input type="password" id="Pass" size="20" >
+        <br><br>
+        <label for="RePass">Repeat Password: </label><br>
+        <input type="password" id="RePass" size="20" >
+        <br><br>
+        <label for="birthday">Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday">
+        <br><br>
+        <label for="myfile">Select a file:</label><br>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <fieldset style="width:fit-content;">
+            <legend>Gender:</legend>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male" id="male"> 
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female" id="female"> 
+            
+        </fieldset> <br><br>
+        
+        <label for="faculty">Choose a Faculty:</label>
+        <select name="faculty" id="faculty">
+            <option value="SCU">SCU</option>
+            <option value="MU">MU</option>
+            <option value="SU">SU</option>
+        </select> <br><br>
+        
+        <fieldset style="width:fit-content;">
+            <legend>Hobbies:</legend>
+            <label for="programming"> Programming</label>
+            <input type="checkbox" id="programming" name="programming" value="programming"><br>
+            <label for="swimming"> Swimming</label>
+            <input type="checkbox" id="swimming" name="swimming" value="swimming"><br>
+        </fieldset> <br> <br>
+
+        <label for="Aboutyou">Aboutyou</label> <br>
+        <textarea cols="30" rows="5">
+            Aboutyou:
+        </textarea> <br><br>
+
+        
+        <input type="checkbox" id="terms" name="terms" value="terms">
+        <a href="terms.html" target="_blank">  I agreed to terms and condition </a>
+
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+</form>
+</body>
+</html>
