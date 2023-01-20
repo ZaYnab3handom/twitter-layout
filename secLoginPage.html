@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body class="all-body">
+    <form action="index.html" id="login-form">
+        <div style="width: 100%; height: 60px; padding:0 10px 0 10px; display: flex; justify-content: space-around;">
+            <img class="twitter_icon_form" src="imgs/Twitter-logo.svg.webp">
+        </div>
+        <div class="passFlex" style="display: flex; flex-direction: column; width: 600px; padding: 0 80px 0 80px;">
+            <h1 style="height: 37px; font-size: 2.8rem; font-weight: 600;">Enter your password</h1>
+            <div id="passBox"
+                style="display: flex;justify-content: space-between; border:1px solid rgb(228, 222, 222); height: 56px; border-radius: 5px;padding:10px 10px 10px 10px ;margin-top: 50px;">
+                <div style="display: flex;flex-direction: column;">
+                    <label id="label" style="font-weight: 300;font-size: 1.7rem; color: grey;">Password</label>
+                    <input type="password" id="Pass" size="20" style=" height: 10px; border: none;width: 100%;">
+                </div>
+                <span class="material-icons-outlined"> visibility </span>
+            </div>
+            <a class="link_underline" href="" style="color: rgb(29, 155, 240); font-size: 1.2rem;"> Forgot password?</a>
+            <button class="logbutton">Log in</button>
+            <div class="sign_up"
+                style="display: flex; align-items: center; padding-top:10px;margin-top: 10px; margin-left: 5px;">
+                <span style="color:rgb(56, 54, 54);font-size:1.4rem ;font-weight:300;">Don't have an account?</span>
+                &nbsp; <a class="link_underline" href="registrationPage.html" style="color: rgb(29, 155, 240);"> Sign
+                    up</a>
+
+            </div>
+        </div>
+    </form>
+</body>
+<script>
+    var div =document.getElementById('Pass');
+    var passBox = document.getElementById('passBox');
+    var label = document.getElementById('label');
+    div.addEventListener("focus",divOnFocus);
+    div.addEventListener("blur",divOnBlur);
+    function divOnFocus(){
+        passBox.style.border = "2px solid rgb(29, 155, 240)";
+        div.style.height='20px'
+        label.style.fontSize='1.2rem';
+        label.style.color='rgb(29, 155, 240)';
+        label.style.fontWeight='400';
+} 
+
+function divOnBlur(){
+    passBox.style.border = "1px solid rgb(228, 222, 222)";
+    div.style.height='10px';
+        label.style.fontSize='1.7rem';
+        label.style.color='grey';
+        label.style.fontWeight='300';
+
+}
+
+</script>
+
+</html>
