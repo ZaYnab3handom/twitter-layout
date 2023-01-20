@@ -20,5 +20,5 @@ https://twitter-minya.netlify.app/registrationpage<br>
 Home page <br>
 2 Login page <br>
 2 Registration page <br>
-# Note: can reach other pages from home page By click on 3dot in bottom left Side <br>
+### Note: can reach other pages from home page By click on 3dot in bottom left Side <br>
 
