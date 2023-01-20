@@ -1,4 +1,4 @@
-# twitter-layout <br><br>
+# Twitter-layout <br><br>
 
 ## External libraries & Font<br>
 material icons<br>
