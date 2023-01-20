@@ -604,7 +604,7 @@ i:hover {
 
 }
 .logbutton{
-    background-color: rgb(61, 64, 65);
+    background-color: rgb(106, 109, 110);
     color: white;
     width: 100%;
     height: 50px;
@@ -621,7 +621,13 @@ i:hover {
 }
 #Pass:focus{
     outline: none;
+}
+#Pass2:focus{
+    outline: none;
 
+}
+select:focus{
+    outline: none;
 }
  @media screen and (max-width:1260px) {
     .tweet_button{

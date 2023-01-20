@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Twitter</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body class="all-body">
+    <form action="loginPage.html" id="login-form">
+        <div class="passFlex"
+            style="display: flex; flex-direction: column;margin-top: 50px; width: 600px; padding: 0 80px 0 80px;">
+            <h1 style="height: 37px; font-size: 2.8rem; font-weight: 600;">Create your account</h1>
+            <div id="passBox"
+                style="display: flex;justify-content: space-between; border:1px solid rgb(228, 222, 222); height: 56px; border-radius: 5px;padding:10px 10px 10px 10px ;margin-top: 50px;">
+                <div style="display: flex;flex-direction: column;">
+                    <label id="label" style="font-weight: 300;font-size: 1.7rem; color: grey;">Name</label>
+                    <input type="text" id="Pass" size="20" style=" height: 15px; border: none;width: 100%;" pattern="[A-Za-z]{3,}" required>
+                </div>
+            </div>
+            <div id="passBox2"
+                style="display: flex;justify-content: space-between; border:1px solid rgb(228, 222, 222); height: 56px; border-radius: 5px;padding:10px 10px 10px 10px ;margin-top: 30px;">
+                <div style="display: flex;flex-direction: column;">
+                    <label id="label2" style="font-weight: 300;font-size: 1.7rem; color: grey;">Phone</label>
+                    <input type="tel" id="Pass2" size="20" style=" height: 15px; border: none;width: 100%;"  pattern="^(01)[0-9]{9}" required>
+                </div>
+            </div>
+            <a class="link_underline" href=""
+                style=" margin-top:10px;text-align: right; color: rgb(29, 155, 240); font-size: 1.4rem; font-weight: 400;">
+                Use email instead</a>
+            <div style="font-size: 1.5rem; font-weight: 600; margin-top: 20px;">
+                Date of birth </div>
+            <div style="margin-top: 10px;font-size: 1.2rem;color: rgb(121, 115, 115); font-weight: 400;">
+                This will not be shown publicly. Confirm your own age, even if this account is for a business, a
+                pet, or something else.
+            </div>
+            <div class="datebox boxOnFocus" style="display: flex;justify-content: space-between; margin-top: 10px; width: 100%;">
+                <div id="monthBox" style="display: flex; flex-direction: column; width:50%;border:1px solid rgb(228, 222, 222); border-radius: 5px;padding:10px 10px 10px 10px">
+                    <label  id="labmonth" style="padding-left: 5px;font-size: 1.2rem;color: grey;">Month</label>
+                    <select id="month" style="border: none; font-weight: 400;">
+                        <option value=""></option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                </div>
+                <div id="dayBox"  style="display: flex; flex-direction: column; width:20%;border:1px solid rgb(228, 222, 222); border-radius: 5px;padding:10px 10px 10px 10px">
+                    <label  id="labday" style="padding-left: 5px;font-size: 1.2rem;color: grey;">Day</label>
+                    <select id="day" style="border: none; font-weight: 400;">
+                        <option value=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">1</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                </div>
+                <div id="yearBox" class="year boxOnFocus" style="display: flex; flex-direction: column; width:25%;border:1px solid rgb(228, 222, 222); border-radius: 5px;padding:10px 10px 10px 10px">
+                    <label id="labyear" style="padding-left: 5px;font-size: 1.2rem;color: grey;">year</label>
+                    <select id="year" style="border: none; font-weight: 400;">
+                        <option value=""></option>
+                        <option value="1">1990</option>
+                        <option value="2">1991</option>
+                        <option value="3">1992</option>
+                        <option value="4">1993</option>
+                        <option value="5">1994</option>
+                        <option value="6">1995</option>
+                        <option value="7">1996</option>
+                        <option value="8">1997</option>
+                        <option value="9">1998</option>
+                        <option value="10">1999</option>
+                        <option value="11">2000</option>
+                        <option value="12">2001</option>
+                        <option value="13">2002</option>
+                        <option value="14">2003</option>
+                        <option value="15">2004</option>
+                        <option value="16">2005</option>
+                        <option value="17">2006</option>
+                        <option value="18">2007</option>
+                        <option value="19">2008</option>
+                        <option value="20">2009</option>
+                        <option value="21">2010</option>
+                        <option value="22">2011</option>
+                        <option value="23">2012</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="logbutton" style="margin-top: 20px;">Next</button>
+        </div>
+    </form>
+</body>
+<script>
+    var div = document.getElementById('Pass');
+    var passBox = document.getElementById('passBox');
+    var label = document.getElementById('label');
+    div.addEventListener("focus", divOnFocus);
+    div.addEventListener("blur", divOnBlur);
+    function divOnFocus() {
+        passBox.style.border = "2px solid rgb(29, 155, 240)";
+        div.style.height = '20px'
+        label.style.fontSize = '1.2rem';
+        label.style.color = 'rgb(29, 155, 240)';
+        label.style.fontWeight = '400';
+    }
+    function divOnBlur() {
+        passBox.style.border = "1px solid rgb(228, 222, 222)";
+        div.style.height = '15px';
+        label.style.fontSize = '1.7rem';
+        label.style.color = 'grey';
+        label.style.fontWeight = '300';
+    }
+
+    var div2 = document.getElementById('Pass2');
+    var passBox2 = document.getElementById('passBox2');
+    var label2 = document.getElementById('label2');
+    div2.addEventListener("focus", divOnFocus2);
+    div2.addEventListener("blur", divOnBlur2);
+    function divOnFocus2() {
+        passBox2.style.border = "2px solid rgb(29, 155, 240)";
+        div2.style.height = '20px'
+        label2.style.fontSize = '1.2rem';
+        label2.style.color = 'rgb(29, 155, 240)';
+        label2.style.fontWeight = '400';
+    }
+    function divOnBlur2() {
+        passBox2.style.border = "1px solid rgb(228, 222, 222)";
+        div2.style.height = '15px';
+        label2.style.fontSize = '1.7rem';
+        label2.style.color = 'grey';
+        label2.style.fontWeight = '300';
+    }
+
+    var yearOnFocus =document.getElementById('yearBox')
+    var labyear = document.getElementById('labyear')
+    yearOnFocus.addEventListener("click", yearOnFocuss);
+    yearOnFocus.addEventListener("mouseout", yearOnblur);
+    function yearOnFocuss(){
+        labyear.style.color = 'rgb(29, 155, 240)'
+        yearOnFocus.style.border= "2px solid rgb(29, 155, 240)"}
+    function yearOnblur(){
+        labyear.style.color = 'grey'
+        yearOnFocus.style.border= "1px solid rgb(228, 222, 222)"}
+
+
+    var dayOnFocus =document.getElementById('dayBox')
+    var labday = document.getElementById('labday')
+    dayOnFocus.addEventListener("click", dayOnFocuss);
+    dayOnFocus.addEventListener("mouseout", dayOnblur);
+    function dayOnFocuss(){
+        console.log("dayyyyyyyyy");
+        labday.style.color = 'rgb(29, 155, 240)'
+        dayOnFocus.style.border= "2px solid rgb(29, 155, 240)"}
+    function dayOnblur(){
+        labday.style.color = 'grey'
+        dayOnFocus.style.border= "1px solid rgb(228, 222, 222)"}
+
+    var monthOnFocus =document.getElementById('monthBox')
+    var labymonth = document.getElementById('labmonth')
+    monthOnFocus.addEventListener("click", monthOnFocuss);
+    monthOnFocus.addEventListener("mouseout", monthOnblur);
+    function monthOnFocuss(){
+        console.log("monthhhhhhhhhhhhhh");
+        labymonth.style.color = 'rgb(29, 155, 240)'
+        monthOnFocus.style.border= "2px solid rgb(29, 155, 240)"}
+     function monthOnblur(){
+        labymonth.style.color = 'grey'
+        monthOnFocus.style.border= "1px solid rgb(228, 222, 222)"}
+        
+
+    
+</script>
+
+</html>
