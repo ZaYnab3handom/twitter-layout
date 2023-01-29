@@ -10,9 +10,9 @@ google font-Poppins-<br>
  ## project link in Github: <br>
 https://github.com/ZaYnab3handom/twitter-layout.git<br>
 ## project link on github Host:<br>
-	https://zaynab3handom.github.io/twitter-layout/ <br>
+	https://zaynab3handom.github.io/twitter-layout/<br>
 ## project link on netfly Host: <br>
-	https://twitter-minya.netlify.app/ <br>
+	https://twitter-minya.netlify.app/<br>
 https://twitter-minya.netlify.app/registrationpage<br>
 
 
